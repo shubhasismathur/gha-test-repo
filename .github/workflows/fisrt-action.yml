@@ -2,10 +2,8 @@ name: my-workflow
 on: workflow-dispatch
 jobs:
 	first-job:
-		runs-on: Ubuntu-latest
+		runs-on: ubuntu-latest
 		steps:
 			- name: first-step
 			  run: |
 				  echo "HelLo1"
-          echo "Hello2"
-		
